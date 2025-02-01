@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/views/Class12.dart';
 import 'package:untitled/views/class11.dart';
 import 'package:untitled/views/example.dart';
 import 'package:untitled/views/login_view.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       title: "show in web",
       color: Colors.red,
       // locale:  for others language,
-      home: const Class11(),
+      home: const Class12(),
     );
   }
 }
